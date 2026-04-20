@@ -205,7 +205,6 @@ GameObject:
   - component: {fileID: 239546239}
   - component: {fileID: 239546238}
   - component: {fileID: 239546237}
-  - component: {fileID: 239546236}
   m_Layer: 0
   m_Name: ourson
   m_TagString: Untagged
@@ -213,19 +212,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &239546236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239546235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50c7db0a023b2b442ab9612981cc0bab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToyPickup
-  toyType: 1
 --- !u!65 &239546237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -407,7 +393,6 @@ GameObject:
   - component: {fileID: 317837553}
   - component: {fileID: 317837552}
   - component: {fileID: 317837551}
-  - component: {fileID: 317837550}
   m_Layer: 0
   m_Name: transformers
   m_TagString: Untagged
@@ -415,19 +400,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &317837550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317837549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50c7db0a023b2b442ab9612981cc0bab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToyPickup
-  toyType: 2
 --- !u!65 &317837551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -924,7 +896,6 @@ GameObject:
   - component: {fileID: 784548236}
   - component: {fileID: 784548235}
   - component: {fileID: 784548234}
-  - component: {fileID: 784548233}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -932,20 +903,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &784548233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784548232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a9d1b0fca979bd4fa6f4d3a17b108a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlatformPower
-  platformPrefab: {fileID: 1363891677752002558, guid: fae67565b939f4f4184984cbf1d19758, type: 3}
-  spawnDistance: 2
 --- !u!65 &784548234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1865,7 +1822,6 @@ GameObject:
   - component: {fileID: 1557956499}
   - component: {fileID: 1557956498}
   - component: {fileID: 1557956497}
-  - component: {fileID: 1557956496}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1873,19 +1829,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1557956496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557956495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50c7db0a023b2b442ab9612981cc0bab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToyPickup
-  toyType: 3
 --- !u!136 &1557956497
 CapsuleCollider:
   m_ObjectHideFlags: 0
