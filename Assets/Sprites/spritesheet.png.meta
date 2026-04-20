@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7682aaa2084edc84d87e23aa99d8a0e5
+guid: a2ed14d3a2bc126418d13e869444664b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: marche_0
+      name: spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f88507f3575f3504d9df7eb32496e8c7
-      internalID: 89128581
+      spriteID: 2e9bff62fb9c1c84c82fe39458a7000e
+      internalID: -1445061716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: marche_1
+      name: spritesheet_1
       rect:
         serializedVersion: 2
         x: 1920
@@ -147,8 +147,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a051c739fd3d06b47a0c3c9aed6e7827
-      internalID: -1436444968
+      spriteID: 40b32c445279111489e0aa92363b0b1e
+      internalID: -804126494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a637f4482041e2641855a8532077768b
+      internalID: 955770735
       vertices: []
       indices: 
       edges: []
@@ -157,7 +179,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d239da01805f42744b789d8480c906de
+    spriteID: 64f1f0674913ecc4d947c98184804a4e
     internalID: 0
     vertices: []
     indices: 
@@ -169,8 +191,9 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1920.0,"y":1920.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      marche_0: 89128581
-      marche_1: -1436444968
+      spritesheet_0: -1445061716
+      spritesheet_1: -804126494
+      spritesheet_2: 955770735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
